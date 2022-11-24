@@ -10,4 +10,4 @@
 
 ## Wireframe
 
-![wireframe](./wireframe.png)
+![wireframe](./planning/wireframe.png)

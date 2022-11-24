@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "husky": "^8.0.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "validate-commit-msg"
+    }
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "commitmsg": "validate-commit-msg"
+  }
+}
